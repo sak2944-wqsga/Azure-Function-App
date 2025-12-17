@@ -65,7 +65,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     <div id="result"></div>
 
     <script>
-        const FUNCTION_KEY = "MiLVjiHqBRUKb8eTH8qysrppz30Djvj9DnM9pgXyFlM7AzFuCBCA6A==";
+        const FUNCTION_KEY = "AFfRDCHyegKptpKCz3MKXRaj-EPRtkEsxkEzeVBUE-o0AzFu-CYP5w==";
         const API_URL = `/api/HttpExample?api=true&code=${FUNCTION_KEY}`;
         function getUser() {
             const name = document.getElementById("username").value;
