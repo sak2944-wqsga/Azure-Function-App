@@ -7,7 +7,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     users = [
         {"id": 1, "name": "veera-don", "role": "DevOps Engineeeer"},
         {"id": 2, "name": "nareshit", "role": "Backend Developer"},
-        {"id": 3, "name": "vsv", "role": "Cloud Engineer"}
+        {"id": 3, "name": "shubham", "role": "Cloud Engineer"}
     ]
 
     # If query param 'api=true' → act as API
@@ -65,7 +65,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     <div id="result"></div>
 
     <script>
-        const FUNCTION_KEY = "Bqa_1VVnMFyEdcV3CyxZ9ng73vY7VUcT3QogVb-4DaxCAzFu0DUiBg==";
+        const FUNCTION_KEY = "MiLVjiHqBRUKb8eTH8qysrppz30Djvj9DnM9pgXyFlM7AzFuCBCA6A==";
         const API_URL = `/api/HttpExample?api=true&code=${FUNCTION_KEY}`;
         function getUser() {
             const name = document.getElementById("username").value;
