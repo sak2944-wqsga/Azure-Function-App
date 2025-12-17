@@ -5,7 +5,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     # Sample data (real-time demo data)
     users = [
-        {"id": 1, "name": "veera-don", "role": "DevOps Engineer"},
+        {"id": 1, "name": "veera-don", "role": "DevOps Engineeeer"},
         {"id": 2, "name": "nareshit", "role": "Backend Developer"},
         {"id": 3, "name": "vsv", "role": "Cloud Engineer"}
     ]
@@ -65,7 +65,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     <div id="result"></div>
 
     <script>
-        const FUNCTION_KEY = "a49SEeielmdwolhyjL9tdcct8pPhK1nzPBlG93on5Ok5AzFuRbMLUw==";
+        const FUNCTION_KEY = "r7cETprpUinuEW03wte_nEGHnD6f_pY1btDOvLiuEuxyAzFuXpnV3g==";
         const API_URL = `/api/HttpExample?api=true&code=${FUNCTION_KEY}`;
         function getUser() {
             const name = document.getElementById("username").value;
